@@ -1,5 +1,6 @@
-const ErrorProneComponent: React.FC = () => {
-  throw new Error('This is a test error!');
+// components/ErrorProneComponent.tsx
+const ErrorProneComponent = () => {
+  throw new Error("This is a test error from ErrorProneComponent");
 };
 
 export default ErrorProneComponent;
